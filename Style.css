@@ -1,0 +1,114 @@
+ body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url('BG\ 3.png'); /* paste your image here */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.87);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgb(187, 145, 154);
+}
+
+.title {
+  font-size: 2em;
+  color: rgb(214, 153, 163);
+  margin-bottom: 20px;
+  font-family: Tanzie;
+}
+
+.button-group button {
+  background-color: #ffe4e1;
+  border: none;
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 1em;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: Tanzie;
+  font-style: bold;
+  color: #92777c;
+  font-size: larger
+}
+
+.button-group button:hover {
+  background-color: #ffb6c1;
+  transform: scale(1.05);
+}
+
+.about-img {
+  width: 200px;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  max-width: 400;
+  width: 40%;
+  height: 150px;
+  font-family: Tanzie, serif;
+  font-size: 1em;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #ad848b;
+  background-color: #fffafc;
+  color: #7e666a;
+  box-shadow: 0 0 10px #ffb6c1;
+  resize: vertical;
+}
+ 
+.container {
+  max-width: 250px;
+  max-height: 550px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #e2b6c5; /* soft pink border */
+  border-radius: 15px;
+  background-color: #fffafc;
+  box-shadow: 0 0 10px #dfa5af, 0 0 20px #ffc6c1; /* glowing sparkle effect */
+  transition: box-shadow 0.5s ease-in-out;
+  text-align: center;
+}
+
+
+
+button {
+  border: 2px solid #a67c8b; /* soft mauve outline */
+  background-color: #e3d5dc;
+  color: #7e666a;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-family: Tanzie, serif;
+  box-shadow: 0 0 10px #d8a7b1;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  border-color: #d48ca6; /* outline changes on hover */
+  background-color: #f5e1ea;
+  transform: scale(1.05);
+}
+
+.about-text {
+  width: 70%;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #ffc0cb;
+  background-color: #fffafc;
+  font-size: 1em;
+  box-shadow: 0 0 10px #ffb6c1;
+  text-align: center;
+}
+
